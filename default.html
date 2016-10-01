@@ -1,10 +1,42 @@
 <html>
+
 	<head>
 		<title>calculater</title>
+		<meta charset="utf-8" />
 		<link rel="stylesheet" type="text/css" href="css/style.css"></link>
 		<script type="text/javascript" src="js/counter.js"></script>
 	</head>
+
 	<body onload="javascript:Load();">
-		<span id="txtScreen">(5+5)/3</span>
+		<p id="word">简单计算器</p>
+		<div id = "calculator" >
+			<div id = "textFrame"><span id="text">hhh</span></div>
+			
+			<div class = "key" id = "n7" onclick="javascript:inputValue('7');"><p>7</p></div>
+			<div class = "key" id = "n8" onclick="javascript:inputValue('8');"><p>8</p></div>
+			<div class = "key" id = "n9" onclick="javascript:inputValue('9');"><p>9</p></div>
+			<div class = "key" id = "div" onclick="javascript:inputValue('/');"><p>/</p></div>
+
+			<div class = "key" id = "n4" onclick="javascript:inputValue('4');"><p>4</p></div>
+			<div class = "key" id = "n5" onclick="javascript:inputValue('5');"><p>5</p></div>
+			<div class = "key" id = "n6" onclick="javascript:inputValue('6');"><p>6</p></div>
+			<div class = "key" id = "mutli" onclick="javascript:inputValue('*');"><p>*</p></div>
+
+			<div class = "key" id = "n1" onclick="javascript:inputValue('1');"><p>1</p></div>
+			<div class = "key" id = "n2" onclick="javascript:inputValue('2');"><p>2</p></div>
+			<div class = "key" id = "n3" onclick="javascript:inputValue('3');"><p>3</p></div>
+			<div class = "key" id = "sub" onclick="javascript:inputValue('-');"><p>-</p></div>
+
+			<div class = "key" id = "n0" onclick="javascript:inputValue('0');"><p>0</p></div>
+			<div class = "key" id = "dot" onclick="javascript:inputValue('.');"><p>.</p></div>
+			<div class = "key" id = "del" onclick="javascript:inputValue('d');"><p>←</p></div>
+			<div class = "key" id = "add" onclick="javascript:inputValue('+');"><p>+</p></div>
+
+			<div class = "key" id = "left" onclick="javascript:inputValue('l');"><p>(</p></div>
+			<div class = "key" id = "right" onclick="javascript:inputValue('r');"><p>)</p></div>
+			<div class = "key" id = "CE" onclick="javascript:inputValue('c');"><p>CE</p></div>
+			<div class = "key" id = "equal" onclick="javascript:inputValue('e');"><p>=</p></div>
+		</div>
 	</body>
+
 </html>

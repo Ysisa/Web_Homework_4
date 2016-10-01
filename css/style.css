@@ -1,0 +1,40 @@
+div {
+	border: 1px solid gray;
+}
+
+#word {
+	font-size: 50px;
+	color: green;
+	text-align: center;
+}
+
+#calculator {
+	border: 3px solid black;
+	width: 650px;
+	height: 700px;
+	text-align: center;
+	margin: auto;
+}
+
+#textFrame {
+	border: 2px solid gray;
+	width: 96%;
+	height: 6%;
+	margin: 2% 2% 1% 2%;
+	text-align: right;
+	font-size: 30px;
+}
+
+.key {
+	background-color: #eeeeee;
+	display: inline-block;
+	width: 18%;
+	height: 14%;
+	text-align: center;
+	font-size: 25px;
+	margin: 2%;
+}
+
+.key:hover {
+	background-color: #cccccc;
+}
